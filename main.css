@@ -139,6 +139,45 @@
     width: 135px !important;
 }
 
+.sec6_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #fc6140;
+    width: 196px !important;
+}
+
+.sec7_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #fc6140;
+    width: 162px !important;
+}
+
+.sec8_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #fc6140;
+    width: 145px !important;
+}
+
+.sec9_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #fc6140;
+    width: 167px !important;
+}
+
+.sec10_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #fc6140;
+    width: 112px !important;
+}
 /* footer */
 .rightmenu {
     float: right !important;
