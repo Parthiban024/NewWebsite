@@ -223,6 +223,11 @@
     
 }
 
+.icon-img{
+    width: 600px !important;
+    
+}
+
 /* blog */
 .post {
     display: none;
@@ -242,4 +247,8 @@ padding: 20px;
 
 .blog_list a.active {
     color: red;
+}
+.Data_font{
+    text-align: justify !important;
+    font-size: 20px;
 }
