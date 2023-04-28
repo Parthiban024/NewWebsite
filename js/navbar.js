@@ -15,11 +15,11 @@ class Mynavbar extends HTMLElement {
                 <strong>Services</strong>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="services.html"><img src="images/Data_engineer.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Engineering</a></li>
-                <li><a class="dropdown-item" href="#"><img src="images/Data_analytics.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Analytics</a></li>
-                <li><a class="dropdown-item" href="#"><img src="images/Data_Science.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Science</a></li>
-                <li><a class="dropdown-item" href="#"><img src="images/Data_Ingesting.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Ingesting</a></li>
-                <li><a class="dropdown-item" href="#"><img src="images/Migration.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspMigration</a></li>
+                <li><a class="dropdown-item" href="services.html#Data_Engineering"><img src="images/Data_engineer.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Engineering</a></li>
+                <li><a class="dropdown-item" href="services.html#Data_Analytics"><img src="images/Data_analytics.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Analytics</a></li>
+                <li><a class="dropdown-item" href="services.html#Data_Science"><img src="images/Data_Science.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Science</a></li>
+                <li><a class="dropdown-item" href="services.html#Data_Ingesting"><img src="images/Data_Ingesting.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Ingesting</a></li>
+                <li><a class="dropdown-item" href="services.html#Migration"><img src="images/Migration.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspMigration</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -30,21 +30,22 @@ class Mynavbar extends HTMLElement {
                 </strong>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="industries.html"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspHLS</a></li>
-                <li><a class="dropdown-item" href="#"><img src="images/Retail.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspRetail</a></li>
-                <li><a class="dropdown-item" href="#"><img src="images/Manufacturing.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspManufacturing</a></li>
-                <li><a class="dropdown-item" href="#"><img src="images/Finance.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspFinancial Services</a></li>
-                <li><a class="dropdown-item" href="#"><img src="images/CPG.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspCPG</a></li>
+                <li><a class="dropdown-item" href="industries.html#HLS"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspHLS</a></li>
+                <li><a class="dropdown-item" href="industries.html#Retail"><img src="images/Retail.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspRetail</a></li>
+                <li><a class="dropdown-item" href="industries.html#Manufacturing"><img src="images/Manufacturing.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspManufacturing</a></li>
+                <li><a class="dropdown-item" href="industries.html#Financial_services"><img src="images/Finance.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspFinancial Services</a></li>
+                <li><a class="dropdown-item" href="industries.html#CPG"><img src="images/CPG.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspCPG</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_link Header-subtitle" href="#"><strong>Company</strong></a>
+              <a class="nav-link nav_link Header-subtitle" href="company.html"><strong>Company</strong></a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav_link Header-subtitle" href="blog.html"><strong>Blog</strong></a>
             </li>
           </ul>
-          <button class="btn btn-outline-primary nav_btn" type="button"><strong>Contact Us</strong></button>
+          <a href="contact.html">
+          <button class="btn btn-outline-primary nav_btn" type="button"><strong>Contact Us</strong></button></a>
         </div>
       </div>
     </nav>`;

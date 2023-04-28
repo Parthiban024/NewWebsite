@@ -17,9 +17,11 @@
     padding-left: 15px !important;
     font-weight: 600 !important;
 }
-.logo_img{
+
+.logo_img {
     width: 200px;
 }
+
 @media screen and (max-width: 1000px) {
     .navlink {
         margin-left: 0px !important;
@@ -49,7 +51,7 @@
     padding-bottom: 15px !important;
     padding-right: 3px !important;
     box-shadow: 2 20px 19px rgba(4, 4, 6, 0.1) !important;
-    border:1px solid black !important;
+    border: 1px solid black !important;
 
 }
 
@@ -178,6 +180,43 @@
     border-bottom: 2px solid #fc6140;
     width: 112px !important;
 }
+
+.sec11_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #FC6140;
+    width: 48px !important;
+}
+
+.logo1 {
+    width: 700px;
+}
+
+.sec12_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #FC6140;
+    width: 65px !important;
+}
+
+.sec13_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #FC6140;
+    width: 170px !important;
+}
+
+.sec14_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #FC6140;
+    width: 196px !important;
+}
+
 /* footer */
 .rightmenu {
     float: right !important;
@@ -209,6 +248,7 @@
 .footer_clr {
     color: rgb(161, 157, 157) !important;
 }
+
 .Header-subtitle {
     font-size: 1.125rem;
     font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
@@ -218,29 +258,31 @@
     color: #2d2c2b !important;
 }
 
-.icon-nav{
+.icon-nav {
     width: 25px;
-   
+
 }
 
-.icon-img{
+.icon-img {
     width: 600px !important;
-   
+
 }
 
-/* blog */
 /* blog */
 .post {
     display: none;
 }
+
 .post.active {
     display: block;
 }
-.blog_list li{
-list-style: none;
-padding: 20px ;
+
+.blog_list li {
+    list-style: none;
+    padding: 20px;
 }
-.blog_list li a{
+
+.blog_list li a {
     list-style: none;
     padding: 7px;
     font-weight: 500;
@@ -250,63 +292,73 @@ padding: 20px ;
 
 .blog_list a.active {
 
-    color: #00819d !important;
+    color: #fff !important;
     font-weight: 600;
-    background-color: #f2f4f6;
+    background-color: #00819d;
     line-height: 150%;
     border-radius: 10px;
     text-decoration: none;
 }
 
-.blog_img:hover{
+.blog_img:hover {
     width: 630px !important;
     cursor: pointer !important;
     transition: 0.3s;
 }
-.card{
+
+.card {
     border: none !important;
 }
-.blog_img2:hover{
+
+.blog_img2:hover {
     width: 410px !important;
     cursor: pointer !important;
     transition: 0.3s;
 }
-.card h4{
+
+.card h4 {
     color: #00819d;
 }
-.card a{
-  text-decoration: none;
+
+.card a {
+    text-decoration: none;
 }
-.card h4:hover{
+
+.card h4:hover {
     cursor: pointer;
     color: black;
     transition: 0.5s;
 }
-.card p{
+
+.card p {
     font-size: 1.35rem;
     font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
     font-weight: 600;
     line-height: 130%;
     letter-spacing: normal;
 }
-.card p:hover{
+
+.card p:hover {
     cursor: pointer;
     color: #00819d;
     transition: 0.5s;
 }
-.blog_para{
+
+.blog_para {
     font-size: 1.35rem;
     font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
     font-weight: 600;
     line-height: 130%;
     letter-spacing: normal;
 }
-.blog_para:hover{
+
+.blog_para:hover {
     cursor: pointer;
     color: #00819d;
     transition: 0.5s;
 }
-.link_para{
+
+.link_para {
     text-decoration: none !important;
     color: black;
 }
@@ -316,18 +368,143 @@ padding: 20px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
+    border: none !important;
 }
+
 form {
     width: 50%;
-    padding: 20px;
+
     border: 1px solid #ccc;
     border-radius: 5px;
-
-    color: red;
 }
-.Data_font{
+
+.Data_font {
     text-align: justify !important;
     font-size: 20px;
+}
 
+.cont_h1 {
+    background-color: #00819d;
+    color: white;
+    font-family: Georgia, 'IBMPlexSans", "Arial Narrow", sans-serif';
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.cont_h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 80%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none !important;
+    border: 1px solid #00819d;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    width: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 19px;
+    font-family: Georgia, 'IBMPlexSans", "Arial Narrow", sans-serif';
+}
+
+/* carosel card */
+@keyframes carouselAnim {
+    0% {
+        transform: translateX(100%) rotatey(0) scale(1.2, 1.2);
+        transform-origin: center center;
+        z-index: 10;
+    }
+
+    27% {
+        transform: translateX(100%) rotatey(0) scale(1.2, 1.2);
+        transform-origin: center center;
+        z-index: 10;
+    }
+
+    33.33333% {
+        transform: translateX(0) translateY(0) rotatey(10deg) scale(0.8, 1);
+        transform-origin: left center;
+        z-index: 5;
+    }
+
+    60% {
+        transform: translateX(0) translateY(0) rotatey(10deg) scale(0.8, 1);
+        transform-origin: left center;
+        z-index: 5;
+    }
+
+    66.666666% {
+        transform: translateX(200%) translateY(0) rotatey(-10deg) scale(0.8, 1);
+        transform-origin: right center;
+        z-index: 5;
+    }
+
+    93% {
+        transform: translateX(200%) translateY(0) rotatey(-10deg) scale(0.8, 1);
+        transform-origin: right center;
+        z-index: 5;
+    }
+
+    100% {
+        transform: translateX(100%) rotatey(0) scale(1.2, 1.2);
+        transform-origin: center center;
+        z-index: 10;
+    }
+}
+
+.carousel__container {
+    width: 100%;
+    max-width: 960px;
+    perspective: 300px;
+    perspective-origin: 50% 60%;
+    min-height: 14em;
+    margin: 3em auto;
+}
+
+.carousel__item {
+    position: absolute;
+    width: 33%;
+    padding-bottom: 19%;
+    animation-name: carouselAnim;
+    /* transform: translateX(0) rotatey(50deg); */
+    transform-origin: left center;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.carousel__item:first-child {
+    animation-delay: -4s;
+}
+
+.carousel__item:last-child {
+    animation-delay: -8s;
+}
+
+.carousel__image {
+    position: absolute;
+    width: 100%;
+    border-radius: 2px;
 }

@@ -10,11 +10,11 @@ class Myfooter extends HTMLElement {
               <li>
                 <h5>Services</h5>
               </li>
-              <li class="pt-2"><a href="#">Data Engineering</a></li>
-              <li class="pt-2"><a href="#">Data Analytics</a></li>
-              <li class="pt-2"><a href="#">Data Science</a></li>
-              <li class="pt-2"><a href="#">Data Ingesting</a></li>
-              <li class="pt-2"><a href="#">Migration</a></li>
+              <li class="pt-2"><a href="services.html#Data_Engineering">Data Engineering</a></li>
+              <li class="pt-2"><a href="services.html#Data_Analytics">Data Analytics</a></li>
+              <li class="pt-2"><a href="services.html#Data_Science">Data Science</a></li>
+              <li class="pt-2"><a href="services.html#Data_Ingesting">Data Ingesting</a></li>
+              <li class="pt-2"><a href="services.html#Migration">Migration</a></li>
             </ul>
           </div>
           <div class="col-md-2">
@@ -22,11 +22,11 @@ class Myfooter extends HTMLElement {
               <li>
                 <h5>Industries</h5>
               </li>
-              <li class="pt-2"><a href="#">HLS</a></li>
-              <li class="pt-2"><a href="#">Retail</a></li>
-              <li class="pt-2"><a href="#">Manufacturing</a></li>
-              <li class="pt-2"><a href="#">Financial Services</a></li>
-              <li class="pt-2"><a href="#">CPG</a></li>
+              <li class="pt-2"><a href=industries.html#HLS">HLS</a></li>
+              <li class="pt-2"><a href="industries.html#Retail">Retail</a></li>
+              <li class="pt-2"><a href="industries.html#Manufacturing">Manufacturing</a></li>
+              <li class="pt-2"><a href="industries.html#Financial_services">Financial Services</a></li>
+              <li class="pt-2"><a href="industries.html#CPG">CPG</a></li>
             </ul>
           </div>
           <div class="col-md-2">
