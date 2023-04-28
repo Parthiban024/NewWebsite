@@ -1,9 +1,9 @@
 class Mynavbar extends HTMLElement {
     connectedCallback() {
-      this.innerHTML = `<nav class="navbar navbar-expand-lg  navmain">
+      this.innerHTML = `<nav class="navbar navbar-expand-lg navmain">
       <div class="container">
-        <!-- <a class="navbar-brand" href="#"><img src ="images//Logo.png" class="logo" alt="logo"></a> -->
-        <a class="navbar-brand" href="#"><img src="images//Logo-removebg-preview.png" class="img-fluid logo_img" alt="logo"></a>
+        <!-- <a class="navbar-brand" href="index.html"><img src ="images/Logo.png" class="logo" alt="logo"></a> -->
+        <a class="navbar-brand" href="index.html"><img src="images//Logo-removebg-preview.png" class="img-fluid logo_img" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@ class Mynavbar extends HTMLElement {
               <a class="nav-link nav_link Header-subtitle" href="#"><strong>Company</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_link Header-subtitle" href="#"><strong>Blog</strong></a>
+              <a class="nav-link nav_link Header-subtitle" href="blog.html"><strong>Blog</strong></a>
             </li>
           </ul>
           <button class="btn btn-outline-primary nav_btn" type="button"><strong>Contact Us</strong></button>

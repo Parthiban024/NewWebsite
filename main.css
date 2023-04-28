@@ -183,3 +183,24 @@
     width: 25px;
     
 }
+
+/* blog */
+.post {
+    display: none;
+}
+.post.active {
+    display: block;
+}
+.blog_list li{
+list-style: none;
+padding: 20px;
+}
+.blog_list li a{
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.blog_list a.active {
+    color: red;
+}
