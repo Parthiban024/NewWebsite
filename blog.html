@@ -1,52 +1,246 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Blog Page</title>
-    <style>
-        .post {
-            display: none;
-        }
-        .post.active {
-            display: block;
-        }
-    </style>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uboundeddata | industries</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+  </head>
 <body>
-    <h1>Welcome to my Blog</h1>
-    <p>Check out my latest posts:</p>
-    <ul>
-        <li><a href="#post1" onclick="showPost('post1')">Post 1</a></li>
-        <li><a href="#post2" onclick="showPost('post2')">Post 2</a></li>
-        <li><a href="#post3" onclick="showPost('post3')">Post 3</a></li>
-        <li><a href="#post4" onclick="showPost('post4')">Post 4</a></li>
-        <li><a href="#post5" onclick="showPost('post5')">Post 5</a></li>
-    </ul>
-
-    <div id="post1" class="post active">
-        <h2>Post 1</h2>
-        <p>hg ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
-    </div>
-
-    <div id="post2" class="post">
-        <h2>Post 2</h2>
-        <p>chg ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
-    </div>
-
-    <div id="post3" class="post">
-        <h2>Post 3</h2>
-        <p>hj ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
-    </div>
-
-    <div id="post4" class="post">
-        <h2>Post 4</h2>
-        <p>zfxs ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
-    </div>
-
-    <div id="post5" class="post">
-        <h2>Post 5</h2>
-        <p>kdfi ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
-    </div>
-
+    <my-navbar></my-navbar>
+    <section class="container my-5">
+        <div class="row">
+          <div class="col-md-12 mt-3">
+            <p>BLOG</p>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="col-md-12">
+            <div class="blog_list">
+              <ul class="d-flex blog_list">
+                <li><a href="#post1" onclick="showPost('post1', 'POST 1', event)">Blog 1</a></li>
+                <li><a href="#post2" onclick="showPost('post2', 'POST 2', event)">Blog 2</a></li>
+                <li><a href="#post3" onclick="showPost('post3', 'POST 3', event)">Blog 3</a></li>
+                <li><a href="#post4" onclick="showPost('post4', 'POST 4', event)">Blog 4</a></li>
+                <li><a href="#post5" onclick="showPost('post5', 'POST 5', event)">Blog 5</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+                <div id="post1" class="post active">
+                    <h2 class="banner_text text-fluid">BLOG 1</h2>
+                    <img src="images/services-banner.png" class="img-fluid banner" alt="Responsive image">
+                    <p>hg ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img src="path/to/image1.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Card 1 description</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img src="path/to/image2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Card 2 description</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img src="path/to/image3.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Card 3 description</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img src="path/to/image4.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Card 4 description</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              <div id="post2" class="post">
+                <h2 class="banner_text text-fluid">BLOG 2</h2>
+                <img src="images/Data_platform.png" class="img-fluid banner" alt="Responsive image">
+                <p>chg ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 1 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 2 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 3 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 4 description</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+      
+              <div id="post3" class="post">
+                <h2 class="banner_text text-fluid">BLOG 3</h2>
+                <img src="images/Finance.png" class="img-fluid banner" alt="Responsive image">
+                <p>hj ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 1 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 2 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 3 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 4 description</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+      
+              <div id="post4" class="post">
+                <h2 class="banner_text text-fluid">BLOG 4</h2>
+                <img src="images/banner_index.png" class="img-fluid banner" alt="Responsive image">
+                <p>zfxs ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 1 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 2 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 3 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 4 description</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+      
+              <div id="post5" class="post">
+                <h2 class="banner_text text-fluid">BLOG 5</h2>
+                <img src="images/Data_engineer.png" class="img-fluid banner" alt="Responsive image">
+                <p>kdfi ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, sapien sapien bibendum sapien, vel bibendum sapien sapien vel sapien. </p>
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 1 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 2 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 3 description</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="path/to/image4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Card 4 description</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <my-footer></my-footer>
     <script>
         function showPost(postId) {
             // Hide all posts
@@ -59,6 +253,79 @@
             var post = document.getElementById(postId);
             post.classList.add('active');
         }
+        
     </script>
+    <script>
+        function showPost(postId) {
+  // Remove active class from all posts and links
+  var posts = document.getElementsByClassName('post');
+  for (var i = 0; i < posts.length; i++) {
+    posts[i].classList.remove('active');
+  }
+  var links = document.querySelectorAll('.blog_list a');
+  for (var i = 0; i < links.length; i++) {
+    links[i].classList.remove('active');
+  }
+
+  // Add active class to the clicked post and link
+  var post = document.getElementById(postId);
+  post.classList.add('active');
+  var link = document.querySelector(`.blog_list a[href="#${postId}"]`);
+  link.classList.add('active');
+}
+    </script>
+    <script>
+        function showPost(postId, postTitle) {
+          // Remove active class from all posts and links
+          var posts = document.getElementsByClassName('post');
+          for (var i = 0; i < posts.length; i++) {
+            posts[i].classList.remove('active');
+          }
+          var links = document.querySelectorAll('.blog_list a');
+          for (var i = 0; i < links.length; i++) {
+            links[i].classList.remove('active');
+          }
+      
+          // Add active class to the clicked post and link
+          var post = document.getElementById(postId);
+          post.classList.add('active');
+          var link = document.querySelector(`.blog_list a[href="#${postId}"]`);
+          link.classList.add('active');
+      
+          // Update the post title
+          var postTitleElement = document.querySelector('.post_title h2');
+          postTitleElement.innerHTML = postTitle;
+        }
+      </script>
+      <script>
+        function showPost(postId, postTitle, event) {
+          // Prevent default behavior of anchor tag
+          event.preventDefault();
+      
+          // Remove active class from all posts and links
+          var posts = document.getElementsByClassName('post');
+          for (var i = 0; i < posts.length; i++) {
+            posts[i].classList.remove('active');
+          }
+          var links = document.querySelectorAll('.blog_list a');
+          for (var i = 0; i < links.length; i++) {
+            links[i].classList.remove('active');
+          }
+      
+          // Add active class to the clicked post and link
+          var post = document.getElementById(postId);
+          post.classList.add('active');
+          var link = document.querySelector(`.blog_list a[href="#${postId}"]`);
+          link.classList.add('active');
+      
+          // Update the post title
+          var postTitleElement = document.querySelector('.post_title h2');
+          postTitleElement.innerHTML = postTitle;
+        }
+      </script>
+ 
+         
+          <script type="text/javascript" src="js/navbar.js"></script>
+          <script type="text/javascript" src="js/footer.js"></script>
 </body>
 </html>
