@@ -139,45 +139,6 @@
     width: 135px !important;
 }
 
-.sec6_para {
-    font-size: 25px;
-    font-weight: 500;
-    color: rgb(6, 6, 121);
-    border-bottom: 2px solid #fc6140;
-    width: 196px !important;
-}
-
-.sec7_para {
-    font-size: 25px;
-    font-weight: 500;
-    color: rgb(6, 6, 121);
-    border-bottom: 2px solid #fc6140;
-    width: 162px !important;
-}
-
-.sec8_para {
-    font-size: 25px;
-    font-weight: 500;
-    color: rgb(6, 6, 121);
-    border-bottom: 2px solid #fc6140;
-    width: 145px !important;
-}
-
-.sec9_para {
-    font-size: 25px;
-    font-weight: 500;
-    color: rgb(6, 6, 121);
-    border-bottom: 2px solid #fc6140;
-    width: 167px !important;
-}
-
-.sec10_para {
-    font-size: 25px;
-    font-weight: 500;
-    color: rgb(6, 6, 121);
-    border-bottom: 2px solid #fc6140;
-    width: 112px !important;
-}
 /* footer */
 .rightmenu {
     float: right !important;
@@ -202,7 +163,7 @@
 }
 
 .footer-list {
-    list-style: none;
+    list-style: none; 
     color: rgb(161, 157, 157) !important;
 }
 
@@ -221,99 +182,4 @@
 .icon-nav{
     width: 25px;
     
-}
-
-/* blog */
-.post {
-    display: none;
-}
-.post.active {
-    display: block;
-}
-.blog_list li{
-list-style: none;
-padding: 20px ;
-}
-.blog_list li a{
-    list-style: none;
-    padding: 7px;
-    font-weight: 500;
-    color: black !important;
-    text-decoration: none;
-}
-
-.blog_list a.active {
-    color: #00819d !important;
-    font-weight: 600;
-    background-color: #f2f4f6;
-    line-height: 150%;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.blog_img:hover{
-    width: 630px !important;
-    cursor: pointer !important;
-    transition: 0.3s;
-}
-.card{
-    border: none !important;
-}
-.blog_img2:hover{
-    width: 410px !important;
-    cursor: pointer !important;
-    transition: 0.3s;
-}
-.card h4{
-    color: #00819d;
-}
-.card a{
-  text-decoration: none;
-}
-.card h4:hover{
-    cursor: pointer;
-    color: black;
-    transition: 0.5s;
-}
-.card p{
-    font-size: 1.35rem;
-    font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
-    font-weight: 600;
-    line-height: 130%;
-    letter-spacing: normal;
-}
-.card p:hover{
-    cursor: pointer;
-    color: #00819d;
-    transition: 0.5s;
-}
-.blog_para{
-    font-size: 1.35rem;
-    font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
-    font-weight: 600;
-    line-height: 130%;
-    letter-spacing: normal;
-}
-.blog_para:hover{
-    cursor: pointer;
-    color: #00819d;
-    transition: 0.5s;
-}
-.link_para{
-    text-decoration: none !important;
-    color: black;
-}
-
-/* contact */
-.contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-form {
-    width: 50%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
