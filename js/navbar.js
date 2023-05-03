@@ -37,9 +37,17 @@ class Mynavbar extends HTMLElement {
                 <li><a class="dropdown-item" href="industries.html#CPG"><img src="images/CPG.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspCPG</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav_link Header-subtitle" href="company.html"><strong>Company</strong></a>
-            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link nav_lnk nav_link Header-subtitle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <strong>
+              Company
+              </strong>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="company.html"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspAbout</a></li>
+            </ul>
+          </li>
             <li class="nav-item">
               <a class="nav-link nav_link Header-subtitle" href="blog.html"><strong>Blog</strong></a>
             </li>
