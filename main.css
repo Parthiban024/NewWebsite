@@ -216,7 +216,13 @@
     border-bottom: 2px solid #FC6140;
     width: 196px !important;
 }
+.sec15_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #FC6140;
 
+}
 /* footer */
 .rightmenu {
     float: right !important;
@@ -507,4 +513,9 @@ form input[type="submit"] {
     position: absolute;
     width: 100%;
     border-radius: 2px;
+}
+.azure_img{
+    border: 1px solid rgb(81, 77, 77);
+    border-radius: 10px;
+    box-shadow: 0 6px 19px rgba(13, 13, 14, 0.1) !important;
 }
