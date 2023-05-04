@@ -9,8 +9,8 @@
 }
 
 .headermain {
-    background-color: #c2ebd9;
-    padding-bottom: 15px;
+    background-color: #c2ebd9; 
+    /* padding-bottom: 15px; */
 }
 
 .navlink li {
@@ -77,7 +77,7 @@
 }
 
 .banner_text {
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 700 !important;
 }
 
@@ -89,6 +89,7 @@
 .nav_btn {
     background-color: #00819d !important;
     color: white !important;
+    font-family: Georgia, serif!important;
 }
 
 .nav_btn:hover {
@@ -119,66 +120,66 @@
 
 .sec3_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 650;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
-    width: 93px !important;
+    width: 172px !important;
 }
 
 .sec4_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 650;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
-    width: 98px !important;
+    width: 110px !important;
 }
 
 .sec5_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 650;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
-    width: 135px !important;
+    width: 168px !important;
 }
 
 .sec6_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 650;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
-    width: 196px !important;
+    width: 203px !important;
 }
 
 .sec7_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 650;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
-    width: 162px !important;
+    width: 169px !important;
 }
 
 .sec8_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 650;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
-    width: 145px !important;
+    width: 150px !important;
 }
 
 .sec9_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 650;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
-    width: 167px !important;
+    width: 173px !important;
 }
 
 .sec10_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 650;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
-    width: 112px !important;
+    width: 118px !important;
 }
 
 .sec11_para {
@@ -218,7 +219,7 @@
 }
 .sec15_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 650;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #FC6140;
 
@@ -256,12 +257,12 @@
 }
 
 .Header-subtitle {
-    font-size: 1.125rem;
-    font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
-    font-weight: 600;
-    line-height: 150%;
+    font-size: 1.250rem !important;
+    font-family: Georgia, serif !important;
+    font-weight: 400 !important;
+    line-height: inherit;
     letter-spacing: normal;
-    color: #2d2c2b !important;
+    color: #000000 !important;
 }
 
 .icon-nav {
@@ -436,86 +437,11 @@ form input[type="submit"] {
     font-family: Georgia, 'IBMPlexSans", "Arial Narrow", sans-serif';
 }
 
-/* carosel card */
-@keyframes carouselAnim {
-    0% {
-        transform: translateX(100%) rotatey(0) scale(1.2, 1.2);
-        transform-origin: center center;
-        z-index: 10;
-    }
-
-    27% {
-        transform: translateX(100%) rotatey(0) scale(1.2, 1.2);
-        transform-origin: center center;
-        z-index: 10;
-    }
-
-    33.33333% {
-        transform: translateX(0) translateY(0) rotatey(10deg) scale(0.8, 1);
-        transform-origin: left center;
-        z-index: 5;
-    }
-
-    60% {
-        transform: translateX(0) translateY(0) rotatey(10deg) scale(0.8, 1);
-        transform-origin: left center;
-        z-index: 5;
-    }
-
-    66.666666% {
-        transform: translateX(200%) translateY(0) rotatey(-10deg) scale(0.8, 1);
-        transform-origin: right center;
-        z-index: 5;
-    }
-
-    93% {
-        transform: translateX(200%) translateY(0) rotatey(-10deg) scale(0.8, 1);
-        transform-origin: right center;
-        z-index: 5;
-    }
-
-    100% {
-        transform: translateX(100%) rotatey(0) scale(1.2, 1.2);
-        transform-origin: center center;
-        z-index: 10;
-    }
-}
-
-.carousel__container {
-    width: 100%;
-    max-width: 960px;
-    perspective: 300px;
-    perspective-origin: 50% 60%;
-    min-height: 14em;
-    margin: 3em auto;
-}
-
-.carousel__item {
-    position: absolute;
-    width: 33%;
-    padding-bottom: 19%;
-    animation-name: carouselAnim;
-    /* transform: translateX(0) rotatey(50deg); */
-    transform-origin: left center;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
-}
-
-.carousel__item:first-child {
-    animation-delay: -4s;
-}
-
-.carousel__item:last-child {
-    animation-delay: -8s;
-}
-
-.carousel__image {
-    position: absolute;
-    width: 100%;
-    border-radius: 2px;
-}
-.azure_img{
-    border: 1px solid rgb(81, 77, 77);
-    border-radius: 10px;
-    box-shadow: 0 6px 19px rgba(13, 13, 14, 0.1) !important;
-}
+.banner_section{
+        background-image: url("images/bannerdemo.jpeg");
+        width: 100% !important;
+        height: 700px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+} 
