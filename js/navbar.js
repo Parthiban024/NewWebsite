@@ -11,7 +11,7 @@ class Mynavbar extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 navlink">
             <li class="nav-item dropdown">
-              <a class="nav-link nav_lnk nav_link Header-subtitle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link nav_lnk nav_link Header-subtitle" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Services
               </a>
               <ul class="dropdown-menu">
@@ -23,7 +23,7 @@ class Mynavbar extends HTMLElement {
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link nav_lnk nav_link Header-subtitle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link nav_lnk nav_link Header-subtitle" href="industries.html" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                   Industries
               </a>
