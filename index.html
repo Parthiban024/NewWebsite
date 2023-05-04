@@ -14,16 +14,24 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
   <header class="">
     <my-navbar></my-navbar>
     <div>
-      <section class="banner_section my-1">
-
-      </section>
-      <!-- <section class="container my-5">
+      <!-- <section class="banner_section my-1 ">
+        <div class="row text-center d-flex ">
+          <div class="col-md-12 mt-4">
+            <p><Strong>UNBOUNDEDDATA FOR AI</Strong></p>
+            <h6 class="banner_text text-fluid">Build and Scale your Data Platform</h6>
+            <div class="d-flex justify-content-center">
+            <p class="banner_para ">A data platform typically includes multiple components such as databases, data warehouses, data lakes, ETL (extract, transform, load) processes, data governance, security, and analytics tools. The platform should be designed to handle various types of data from different sources and integrate with other systems as necessary.</p></div>
+          </div>
+        </div>
+      </section> -->
+      <section class="container my-5">
         <div class="row">
           <div class="col-md-5 mt-4">
             <p><Strong>UNBOUNDEDDATA FOR AI</Strong></p>
@@ -34,10 +42,10 @@
             <img src="images/Service.png" class="img-fluid banner ms-3" alt="Responsive image">
           </div>
         </div>
-      </section> -->
+      </section>
     </div>
   </header>
-  <div class=" pt-1 pb-4 headermain">
+<div class=" pt-1 pb-4 headermain">
   <section class="container my-5 ">
     <div class="d-flex justify-content-center">
       <p class="text-center sec3_para "> OUR SERVICES</p>
@@ -59,9 +67,9 @@
     </div>
   </section>
 </div>
-  <section class="container my-5">
+    <section class="container my-5">
     <div class="d-flex justify-content-center">
-      <p class="text-center sec15_para ">REFERENCE</p>
+      <p class="text-center sec3_para">REFERENCE</p>
     </div>
     <div class="row mt-5">
       <!-- <h3 class="banner_text2 text-fluid">Your AI for Data Mining and<br>Data Sourcing</h3> -->
@@ -72,52 +80,12 @@
 
     </div>
   </section>
-  <div class="sectionThree">
-    <section class="container my-5 pb-5">
-      <div class="d-flex justify-content-center">
-        <p class="text-center sec4_para pt-5">WHY US?</p>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <div>
-            <h4>Head One</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae asperiores, iusto
-              consequatur quia quisquam praesentium numquam esse cumque</p>
-          </div>
-          <div>
-            <h4>Head Two</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae asperiores, iusto
-              consequatur quia quisquam praesentium numquam esse cumque</p>
-          </div>
-          <div>
-            <h4>Head Three</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae asperiores, iusto
-              consequatur quia quisquam praesentium numquam esse cumque</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div>
-            <h4>Head One</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae asperiores, iusto
-              consequatur quia quisquam praesentium numquam esse cumque</p>
-          </div>
-          <div>
-            <h4>Head Two</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae asperiores, iusto
-              consequatur quia quisquam praesentium numquam esse cumque</p>
-          </div>
-          <div>
-            <h4>Head Three</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae asperiores, iusto
-              consequatur quia quisquam praesentium numquam esse cumque</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+  <div class="sectionThree pt-3 pb-3">
+
+ 
   <section class="container my-5">
     <div class="d-flex justify-content-center">
-      <p class="text-center sec5_para">OUR HISTORY</p>
+      <p class="text-center sec3_para">OUR HISTORY</p>
     </div>
     <div class="row mt-5">
       <!-- <h3 class="banner_text2 text-fluid">Your AI for Data Mining and<br>Data Sourcing</h3> -->
@@ -130,8 +98,82 @@
     </div>
 
   </section>
+</div>
   <my-footer></my-footer>
-  
+  <script>
+    /*
+  @method Cards
+  @description this is for label based radio navigation to change the labels style to 'active'
+ */
+const Cards = ((() => {
+  /*
+   * @description dom loaded event listener
+   */
+  window.addEventListener('DOMContentLoaded', () => {setTimeout(init,1)}, true);
+
+  /*
+   * @method init
+   * @parameter e {event}
+   * @description initiates event listeners on all cards
+   */
+  function init(e)
+  {
+    if(document.querySelector(".cards"))
+    {
+      let cards = document.querySelector(".cards");
+      cards.addEventListener('click', clicked, false);
+      document.querySelectorAll(".cards .card")[1].click();
+    }
+  }
+
+  /*
+   * @method clicked
+   * @parameter e {event}
+   * @description this is the callback from the assigned event listener binding
+   */
+  function clicked(e)
+  {
+    let card = e.target;
+    if(card.getAttribute("data-card")){rearrange(card.getAttribute("data-card"));}
+  }
+
+  /*
+   * @method rearrange
+   * @parameter card {object}
+   * @description this is the callback from the assigned event listener binding
+   */
+  function rearrange(card)
+  {
+    let cards = document.querySelectorAll(".cards .card");
+    for(let n = 0; n < cards.length; n++)
+    {
+      cards[n].classList.remove("card--left");
+      cards[n].classList.remove("card--center");
+      cards[n].classList.remove("card--right");
+    }
+    cards[card].classList.add("card--center");
+    if(card == 0)
+    {
+      cards[2].classList.add("card--left");
+      cards[1].classList.add("card--right");
+    }
+    if(card == 1)
+    {
+      cards[0].classList.add("card--left");
+      cards[2].classList.add("card--right");
+    }
+    if(card == 2)
+    {
+      cards[1].classList.add("card--left");
+      cards[0].classList.add("card--right");
+    }
+  }
+
+  return {
+    init
+  }
+})());
+  </script>
   <script type="text/javascript" src="js/navbar.js"></script>
   <script type="text/javascript" src="js/footer.js"></script>
 </body>
