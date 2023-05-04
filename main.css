@@ -10,6 +10,7 @@
 
 .headermain {
     background-color: #c2ebd9; 
+    height: 700px !important;
     /* padding-bottom: 15px; */
 }
 
@@ -20,6 +21,18 @@
 
 .logo_img {
     width: 200px;
+}
+
+.img_size {
+    width: 550px !important;
+}
+
+.img_size2 {
+    width: 600px !important;
+}
+
+.img_size3 {
+    width: 800px !important;
 }
 
 @media screen and (max-width: 1000px) {
@@ -167,7 +180,7 @@
 
 .sec8_para {
     font-size: 25px;
-    font-weight: 650;
+    font-weight: 600;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
     width: 150px !important;
@@ -175,7 +188,7 @@
 
 .sec9_para {
     font-size: 25px;
-    font-weight: 650;
+    font-weight: 600;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
     width: 173px !important;
@@ -183,7 +196,7 @@
 
 .sec10_para {
     font-size: 25px;
-    font-weight: 650;
+    font-weight: 600;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #fc6140;
     width: 118px !important;
@@ -191,7 +204,7 @@
 
 .sec11_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #FC6140;
     width: 48px !important;
@@ -203,30 +216,30 @@
 
 .sec12_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #FC6140;
-    width: 65px !important;
+    width: 80px !important;
 }
 
 .sec13_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #FC6140;
-    width: 170px !important;
+    width: 218px !important;
 }
 
 .sec14_para {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #FC6140;
-    width: 196px !important;
+    width: 250px !important;
 }
 .sec15_para {
     font-size: 25px;
-    font-weight: 650;
+    font-weight: 600;
     color: rgb(6, 6, 121);
     border-bottom: 2px solid #FC6140;
 
@@ -646,4 +659,7 @@ form input[type="submit"] {
         background-size: cover;
       
 } 
+.section{
+    height: 700px !important;
+}
 
