@@ -84,8 +84,12 @@
 .banner_para {
     font-size: 21px;
     margin-top: 50px;
-}
 
+}
+.banner_para_2 {
+    font-size: 17px;
+    text-align: justify !important;
+}
 .nav_btn {
     background-color: #00819d !important;
     color: white !important;
@@ -322,7 +326,11 @@
     cursor: pointer !important;
     transition: 0.3s;
 }
-
+.blog_img3:hover{
+    width: 405px !important;
+    cursor: pointer !important;
+    transition: 0.3s;
+}
 .card h4 {
     color: #00819d;
 }
@@ -381,7 +389,6 @@
 
 form {
     width: 50%;
-
     border: 1px solid #ccc;
     border-radius: 5px;
 }
