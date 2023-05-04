@@ -43,6 +43,10 @@ body {
     width: 800px !important;
 }
 
+.img_size4 {
+    width: 450px !important;
+}
+
 @media screen and (max-width: 1000px) {
     .navlink {
         margin-left: 0px !important;
@@ -708,11 +712,7 @@ form input[type="submit"] {
     }
 }
 
-.pp_head {
-    text-decoration: underline;
-    text-decoration-color: #b36f1f;
-    color: #63374c;
-}
+ 
 
 .txt {
     text-align: justify;
