@@ -41,7 +41,7 @@ class Mynavbar extends HTMLElement {
               Company
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="company.html"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspAbout</a></li>
+              <li><a class="dropdown-item" href="company.html"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspAbout Us</a></li>
             </ul>
           </li>
             <li class="nav-item">
