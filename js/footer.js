@@ -42,8 +42,8 @@ class Myfooter extends HTMLElement {
           <div class="col-md-6">
             <div class="">
               <ul class="footer-list rightmenu">
-                <li class="footer_clr"><a href="#">Privacy Policy</a> |
-                  <a href="#">Terms of Use</a>
+                <li class="footer_clr"><a href="privacyPolicy.html">Privacy Policy</a> |
+                  <a href="terms&conditions.html">Terms of Use</a>
                 </li>
                 <li class="pt-2">
                   <p>Copyright &copy;2023 Unboundeddata - All right reserved. </p>
