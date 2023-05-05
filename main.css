@@ -661,17 +661,39 @@ form input[type="submit"] {
   .prev_btn{
     position: relative !important;
     top: -255px !important;
-    left: -130px !important;
+    left: -110px !important;
   }
   .nxt_btn{
     position: relative !important;
-    top: -308px !important;
-    left: 1230px !important;
+    top: -278px !important;
+    left: 1212px !important;
   }
   .prev_icon{
     width: 30px !important;
     height: 30px !important;
     border-radius: 10px;
-    background-color: #30678a!important;
+    background-color: #1975af!important;
 
+  }
+  .sectionThree2{
+    background-color: #abafb6 !important;
+    border-radius: 10px;
+    
+  }
+  .sectionThree2 .card{
+    width: 550px;
+height: 500px;
+border-radius: 10px;
+  }
+  .sectionThree3{
+    background-color: #abafb6 !important;
+    border-radius: 10px;
+  }
+  .sectionThree3 .card{
+    width: 550px;
+    height: 500px;
+    border-radius: 10px !important;
+  }
+  .lrn_btn{
+    background-color: #0a485b !important;
   }
