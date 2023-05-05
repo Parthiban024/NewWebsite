@@ -713,7 +713,7 @@ border-radius: 10px;
     border:0.5px solid #000000 !important;
   }
   .lrn_btn{
-    background-color: #0a485b !important;
+    background-color: #0a485b !important; 
   }
   @media screen and (min-width: 1800px) and (max-width: 2200px){
     .sectionThree3 .card{
