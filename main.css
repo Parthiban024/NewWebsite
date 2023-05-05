@@ -688,12 +688,13 @@ border-radius: 10px;
   .sectionThree3{
     background-color: white !important;
     border-radius: 10px;
-    border-style: #000000 !important;
+    
   }
   .sectionThree3 .card{
     width: 550px;
     height: 500px;
     border-radius: 10px !important;
+    border:0.5px solid #000000 !important;
   }
   .lrn_btn{
     background-color: #0a485b !important;
