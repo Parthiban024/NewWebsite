@@ -693,8 +693,9 @@ height: 500px;
 border-radius: 10px;
   }
   .sectionThree3{
-    background-color: #abafb6 !important;
+    background-color: white !important;
     border-radius: 10px;
+    border-style: #000000 !important;
   }
   .sectionThree3 .card{
     width: 550px;
