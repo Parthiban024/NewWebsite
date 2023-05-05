@@ -709,7 +709,7 @@ border-radius: 10px;
   @media screen and (min-width: 1800px) and (max-width: 2200px){
     .sectionThree3 .card{
         width: 580px !important;
-        height: 550px !important;
+        height: 600px !important;
         border-radius: 10px !important;
         margin-left: 10px !important;
       }
