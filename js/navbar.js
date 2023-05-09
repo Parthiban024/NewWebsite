@@ -12,7 +12,8 @@ class Mynavbar extends HTMLElement {
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 navlink">
             <li class="nav-item dropdown">
               <a class="nav-link nav_lnk nav_link Header-subtitle" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
+            
+                <a href="services.html" class="nav-link nav_lnk nav_link Header-subtitle">Services</a>
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="services.html#Data_Engineering"><img src="images/Data_engineer.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Engineering</a></li>
@@ -23,9 +24,9 @@ class Mynavbar extends HTMLElement {
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link nav_lnk nav_link Header-subtitle" href="industries.html" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link nav_lnk nav_link Header-subtitle" href="industries.html#industries" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                  Industries
+                  <a href="industries.html" class="nav-link nav_lnk nav_link Header-subtitle">Industries</a>
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="industries.html#HLS"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspHLS</a></li>
@@ -38,14 +39,18 @@ class Mynavbar extends HTMLElement {
             <li class="nav-item dropdown">
             <a class="nav-link nav_lnk nav_link Header-subtitle" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Company
+              
+              <a href="company.html" class="nav-link nav_lnk nav_link Header-subtitle">Company</a>
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="company.html"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspAbout Us</a></li>
             </ul>
           </li>
             <li class="nav-item">
-              <a class="nav-link nav_link Header-subtitle " href="blog.html">Blog</a>
+              <a class="nav-link nav_link  Header-subtitle2" href="reference.html">Reference</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_link  Header-subtitle2" href="blog.html">Blog</a>
             </li>
           </ul>
           <a href="contact.html">
