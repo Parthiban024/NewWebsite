@@ -751,26 +751,70 @@ border-radius: 10px;
     transform: scale(1.014);
     transition: 0.5s !important;
   }
-  .card_img{
-    width: 280px !important;
-  }
-  .card_img2{
-    width: 350px !important;
-  }
-  .card_img3{
-    width: 330px !important;
-  }
-  .card_img4{
-    width: 330px !important;
-  }
-  .card_img5{
-    width: 350px !important;
-  }
 
 
   /* why us card */
+.hm_grd_border{
+    border: 1px solid #fff !important;
+    border-left: none !important;
+    border-top: none !important;
+   
+}
+.hm_grd_border2{
+    border: 1px solid #fff !important;
+    border-top: none !important;
+ 
+}
 
-  .home-community-board {
-    background-image: linear-gradient(45deg,#0fbfbf,#4fb06d) !important;
-    padding: 7rem 0 !important;
+.hm_grd_border3{
+    border: 1px solid #fff !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+
+.hm_grd_border4{
+    border: 1px solid #fff !important;
+    border-left: none !important;
+    border-bottom: none !important;
+   
+}
+
+.hm_grd_border5{
+    border: 1px solid #fff !important;
+    border-bottom: none !important;
+  
+}
+.hm_grd_border6{
+    border: 1px solid #fff !important;
+    border-right: none !important;
+    border-bottom: none !important;
+ 
+}
+
+.my-section{
+  padding: 50px;
+  left: 0;
+  right: 0;
+  background-color: rgb(194,235,217);
+  color: #1f1818 !important;
+}
+
+.my-cont{
+    width: 800px !important;
+}
+
+
+.my-section {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 200px !important;
+}
+
+.my-section svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+ 
 }
