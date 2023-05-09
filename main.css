@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, serif !important;
+    font-family: Lexend Deca,Helvetica Neue,Helvetica,Arial,sans-serif !important;
 }
 
 /* navbar */
@@ -112,19 +112,18 @@ body {
 }
 
 .nav_btn {
-    background: linear-gradient(to right, #83306c, #bb7914);
+   background-color: #5d1956 !important; 
     color: white !important;
 
     border: none !important;
-
-    font-family: Georgia, serif !important;
 }
 
 .nav_btn:hover {
-    /* background-color: white !important; */
+    background-color: white !important;
     border-color: #00819d !important;
     box-shadow: 0 6px 19px rgba(13, 13, 14, 0.1) !important;
-    /* color: #00819d !important; */
+    border: 1px solid #5d1956 !important;
+    color: #5d1956 !important;
     transition: 0.5s !important;
 }
 
@@ -181,7 +180,6 @@ body {
 
 .Header-subtitle {
     font-size: 1.250rem !important;
-    font-family: Georgia, serif !important;
     font-style: normal !important;
     font-weight: 400 !important;
     line-height: inherit;
@@ -280,7 +278,6 @@ body {
 
 .card p {
     font-size: 1.35rem;
-    font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
     font-weight: 600;
     line-height: 130%;
     letter-spacing: normal;
@@ -294,7 +291,6 @@ body {
 
 .blog_para {
     font-size: 1.35rem;
-    font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
     font-weight: 600;
     line-height: 130%;
     letter-spacing: normal;
@@ -334,7 +330,6 @@ form {
 .cont_h1 {
     background-color: #00819d;
     color: white;
-    font-family: Georgia, 'IBMPlexSans", "Arial Narrow", sans-serif';
     width: 100%;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -374,7 +369,6 @@ form input[type="submit"] {
     padding-top: 2px;
     padding-bottom: 2px;
     font-size: 19px;
-    font-family: Georgia, 'IBMPlexSans", "Arial Narrow", sans-serif';
 }
 
 
@@ -480,7 +474,6 @@ form input[type="submit"] {
 .live>li::before {
     position: absolute;
     content: '\2022';
-    font-family: Arial;
     color: #691d5f !important;
     top: 0;
     left: 0;
@@ -729,3 +722,40 @@ border-radius: 10px;
         margin-left: 10px !important;
       }
   }
+  .cardSection{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #f6f9fc;
+  }
+  .card_wd{
+    width: 380px;
+    /* height: 350px !important; */
+  }
+  .card_wd:hover{
+    box-shadow: 0 10px 50px -5px rgba(46,71,93,.12);
+    transform: scale(1.014);
+    transition: 0.5s !important;
+  }
+  .card_img{
+    width: 280px !important;
+  }
+  .card_img2{
+    width: 350px !important;
+  }
+  .card_img3{
+    width: 330px !important;
+  }
+  .card_img4{
+    width: 330px !important;
+  }
+  .card_img5{
+    width: 350px !important;
+  }
+
+
+  /* why us card */
+
+  .home-community-board {
+    background-image: linear-gradient(45deg,#0fbfbf,#4fb06d) !important;
+    padding: 7rem 0 !important;
+}
