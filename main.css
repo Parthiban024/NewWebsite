@@ -551,7 +551,7 @@ form input[type="submit"] {
 @media screen and (min-width: 577px) {
 
     .my-cont {
-        width: 800px !important;
+        width: 700px !important;
     }
 
 }
@@ -593,6 +593,7 @@ form input[type="submit"] {
 
 .card_wd {
     width: 380px;
+    border: 1px solid rgb(219, 212, 212) !important;
     /* height: 350px !important; */
 }
 
@@ -681,4 +682,15 @@ form input[type="submit"] {
 
 .sec_oh {
     background-color: #fff !important;
+}
+.my-cont i{
+    font-size: 30px !important;
+   color: #5d1956 !important;
+}
+
+/* popup contact */
+.swal2-styled.swal2-confirm {
+    border: none !important;
+    background-color: #5d1956 !important;
+    outline: none !important;
 }
