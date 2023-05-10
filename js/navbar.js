@@ -1,6 +1,6 @@
 class Mynavbar extends HTMLElement {
-    connectedCallback() {
-      this.innerHTML = `<nav class="navbar navbar-expand-lg navmain">
+  connectedCallback() {
+    this.innerHTML = `<nav class="navbar navbar-expand-lg navmain">
       <div class="container">
         <!-- <a class="navbar-brand" href="index.html"><img src ="images/Logo.png" class="logo" alt="logo"></a> -->
         <a class="navbar-brand" href="index.html"><img src="images//Logo-removebg-preview.png" class="img-fluid logo_img" alt="logo"></a>
@@ -58,7 +58,7 @@ class Mynavbar extends HTMLElement {
         </div>
       </div>
     </nav>`;
-    }
   }
-  
-  customElements.define('my-navbar', Mynavbar);
+}
+
+customElements.define('my-navbar', Mynavbar);
