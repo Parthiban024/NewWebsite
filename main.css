@@ -694,3 +694,7 @@ form input[type="submit"] {
     background-color: #5d1956 !important;
     outline: none !important;
 }
+
+.card_img{
+    padding: 20px;
+}
