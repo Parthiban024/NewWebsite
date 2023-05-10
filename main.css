@@ -145,6 +145,8 @@ body {
 
 .sectionThree {
     background-color: #faf5e7 !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .sectionFour{
@@ -738,7 +740,7 @@ border-radius: 10px;
       }
   }
   .cardSection{
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 50px;
     background-color: #f6f9fc;
   }
@@ -792,7 +794,9 @@ border-radius: 10px;
 }
 
 .my-section{
-  padding: 50px;
+  /* padding: 50px; */
+  padding-top: 25px;
+  padding-bottom: 50px;
   left: 0;
   right: 0;
   background-color: rgb(194,235,217);
