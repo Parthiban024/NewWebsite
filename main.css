@@ -142,10 +142,12 @@ body {
 .data_img {
     padding-top: 30px;
 }
-.retail{
+
+.retail {
     height: 700px !important;
     width: 200% !important;
 }
+
 .sectionThree {
     background-color: #faf5e7 !important;
     /* padding-top: 50px;
@@ -541,13 +543,16 @@ form input[type="submit"] {
     font-weight: 650;
     color: rgb(6, 6, 121);
 }
-.banner{
+
+.banner {
     margin-top: 20px;
     height: 470px !important;
 }
-.banner2{
+
+.banner2 {
     height: 450px !important;
 }
+
 .pp_head {
     text-decoration: underline;
     text-decoration-color: #fc6140;
@@ -581,14 +586,15 @@ form input[type="submit"] {
         border-radius: 10px !important;
         margin-left: 10px !important;
 
-      }
-      .sectionThree2 .card{
+    }
+
+    .sectionThree2 .card {
         width: 580px !important;
         height: 600px !important;
         border-radius: 10px !important;
         margin-left: 10px !important;
-      }
-  }
+    }
+}
 
 
 .cardSection {
@@ -650,15 +656,16 @@ form input[type="submit"] {
 }
 
 
-.my-section{
-  /* padding: 50px; */
-  padding-top: 25px;
-  padding-bottom: 50px;
-  left: 0;
-  right: 0;
-  background-color: rgb(194,235,217);
-  color: #1f1818 !important;
+.my-section {
+    /* padding: 50px; */
+    padding-top: 25px;
+    padding-bottom: 50px;
+    left: 0;
+    right: 0;
+    background-color: rgb(194, 235, 217);
+    color: #1f1818 !important;
 }
+
 .my-section {
     padding: 50px;
     left: 0;
@@ -688,9 +695,10 @@ form input[type="submit"] {
 .sec_oh {
     background-color: #fff !important;
 }
-.my-cont i{
+
+.my-cont i {
     font-size: 40px !important;
-   color: #5d1956 !important;
+    color: #5d1956 !important;
 }
 
 /* popup contact */
@@ -700,7 +708,7 @@ form input[type="submit"] {
     outline: none !important;
 }
 
-.card_img{
+.card_img {
     padding: 70px;
     padding-bottom: 15px;
     padding-top: 35px;
