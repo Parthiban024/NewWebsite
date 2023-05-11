@@ -543,8 +543,9 @@ form input[type="submit"] {
 
 .pp_head {
     text-decoration: underline;
-    text-decoration-color: #B36F1F;
-    color: #63374C;
+    text-decoration-color: #fc6140;
+    /* text-underline-position: under; */
+    color: rgb(6, 6, 121);
 }
 
 
@@ -696,5 +697,5 @@ form input[type="submit"] {
 }
 
 .card_img{
-    padding: 20px;
+    padding: 40px;
 }
