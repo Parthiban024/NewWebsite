@@ -142,7 +142,10 @@ body {
 .data_img {
     padding-top: 30px;
 }
-
+.retail{
+    height: 700px !important;
+    width: 200% !important;
+}
 .sectionThree {
     background-color: #faf5e7 !important;
     /* padding-top: 50px;
