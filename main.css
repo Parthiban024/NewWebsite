@@ -301,17 +301,13 @@ body {
 }
 
 .card p {
-    font-size: 1.35rem;
-    font-weight: 600;
+    font-size: 1.22rem;
     line-height: 130%;
+    font-weight: 500;
     letter-spacing: normal;
 }
 
-.card p:hover {
-    cursor: pointer;
-    color: #00819d;
-    transition: 0.5s;
-}
+
 
 .blog_para {
     font-size: 1.35rem;
@@ -593,7 +589,7 @@ form input[type="submit"] {
 }
 
 .card_wd {
-    width: 380px;
+    width: 330px;
     border: 1px solid rgb(219, 212, 212) !important;
     /* height: 350px !important; */
 }
@@ -685,7 +681,7 @@ form input[type="submit"] {
     background-color: #fff !important;
 }
 .my-cont i{
-    font-size: 30px !important;
+    font-size: 40px !important;
    color: #5d1956 !important;
 }
 
@@ -697,5 +693,8 @@ form input[type="submit"] {
 }
 
 .card_img{
-    padding: 80px;
+    padding: 70px;
+    padding-bottom: 15px;
+    padding-top: 35px;
+
 }

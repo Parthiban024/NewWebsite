@@ -23,14 +23,14 @@
       <p class="text-center sec3_para">BLOG</p>
       <div class="row g-1">
         <div class="col-md-4 mb-4">
-          <div class="card card_wd ">
+          <div class="card card_wd">
             <div class="d-flex justify-content-center">
               <img src="images/Blog_2.jpg" class="img-fluid card_img" alt="...">
             </div>
             <div class="card-body">
-              <h5 class="card-title pp_head"><strong>Blog1</strong></h5>
+              <h5 class="card-title pp_head"><strong>Blog One</strong></h5>
               <p class="card-text">This is the first card in the first row.</p>
-              <a href="#" class="btn btn-primary nav_btn">Read More</a>
+              <a href="blogOne.html" class="btn btn-primary nav_btn">Read More</a>
             </div>
           </div>
         </div>
@@ -40,9 +40,9 @@
               <img src="images/Blog_2.jpg" class="img-fluid card_img" alt="...">
             </div>
             <div class="card-body">
-              <h5 class="card-title pp_head"><strong>Blog2</strong></h5>
+              <h5 class="card-title pp_head"><strong>Blog Two</strong></h5>
               <p class="card-text">This is the first card in the first row.</p>
-              <a href="#" class="btn btn-primary nav_btn">Read More</a>
+              <a href="blogTwo.html" class="btn btn-primary nav_btn">Read More</a>
             </div>
           </div>
         </div>
@@ -52,45 +52,9 @@
               <img src="images/Blog_2.jpg" class="img-fluid card_img" alt="...">
             </div>
             <div class="card-body">
-              <h5 class="card-title pp_head"><strong>Blog3</strong></h5>
+              <h5 class="card-title pp_head"><strong>Blog Three</strong></h5>
               <p class="card-text">This is the second card in the first row.</p>
-              <a href="#" class="btn btn-primary nav_btn">Read More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card card_wd">
-            <div class="d-flex justify-content-center">
-              <img src="images/Blog_2.jpg" class="img-fluid card_img" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title pp_head"><strong>Blog4</strong></h5>
-              <p class="card-text">This is the third card in the first row.</p>
-              <a href="#" class="btn btn-primary nav_btn">Read More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card card_wd ">
-            <div class="d-flex justify-content-center">
-              <img src="images/Blog_2.jpg" class="img-fluid card_img" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title pp_head"><strong>Blog5</strong></h5>
-              <p class="card-text">This is the first card in the second row.</p>
-              <a href="#" class="btn btn-primary nav_btn">Read More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card card_wd">
-            <div class="d-flex justify-content-center">
-              <img src="images/Blog_2.jpg" class="img-fluid card_img" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title pp_head"><strong>Blog6</strong></h5>
-              <p class="card-text">This is the second card in the second row.</p>
-              <a href="#" class="btn btn-primary nav_btn">Read More</a>
+              <a href="blogThree.html" class="btn btn-primary nav_btn">Read More</a>
             </div>
           </div>
         </div>
@@ -98,90 +62,6 @@
     </div>
   </section>
   <my-footer></my-footer>
-
-  <script>
-    function showPost(postId) {
-      // Hide all posts
-      var posts = document.getElementsByClassName('post');
-      for (var i = 0; i < posts.length; i++) {
-        posts[i].classList.remove('active');
-      }
-
-      // Show the selected post
-      var post = document.getElementById(postId);
-      post.classList.add('active');
-    }
-
-  </script>
-  <script>
-    function showPost(postId) {
-      // Remove active class from all posts and links
-      var posts = document.getElementsByClassName('post');
-      for (var i = 0; i < posts.length; i++) {
-        posts[i].classList.remove('active');
-      }
-      var links = document.querySelectorAll('.blog_list a');
-      for (var i = 0; i < links.length; i++) {
-        links[i].classList.remove('active');
-      }
-
-      // Add active class to the clicked post and link
-      var post = document.getElementById(postId);
-      post.classList.add('active');
-      var link = document.querySelector(`.blog_list a[href="#${postId}"]`);
-      link.classList.add('active');
-    }
-  </script>
-  <script>
-    function showPost(postId, postTitle) {
-      // Remove active class from all posts and links
-      var posts = document.getElementsByClassName('post');
-      for (var i = 0; i < posts.length; i++) {
-        posts[i].classList.remove('active');
-      }
-      var links = document.querySelectorAll('.blog_list a');
-      for (var i = 0; i < links.length; i++) {
-        links[i].classList.remove('active');
-      }
-
-      // Add active class to the clicked post and link
-      var post = document.getElementById(postId);
-      post.classList.add('active');
-      var link = document.querySelector(`.blog_list a[href="#${postId}"]`);
-      link.classList.add('active');
-
-      // Update the post title
-      var postTitleElement = document.querySelector('.post_title h2');
-      postTitleElement.innerHTML = postTitle;
-    }
-  </script>
-  <script>
-    function showPost(postId, postTitle, event) {
-      // Prevent default behavior of anchor tag
-      event.preventDefault();
-
-      // Remove active class from all posts and links
-      var posts = document.getElementsByClassName('post');
-      for (var i = 0; i < posts.length; i++) {
-        posts[i].classList.remove('active');
-      }
-      var links = document.querySelectorAll('.blog_list a');
-      for (var i = 0; i < links.length; i++) {
-        links[i].classList.remove('active');
-      }
-
-      // Add active class to the clicked post and link
-      var post = document.getElementById(postId);
-      post.classList.add('active');
-      var link = document.querySelector(`.blog_list a[href="#${postId}"]`);
-      link.classList.add('active');
-
-      // Update the post title
-      var postTitleElement = document.querySelector('.post_title h2');
-      postTitleElement.innerHTML = postTitle;
-    }
-  </script>
-
 
   <script type="text/javascript" src="js/navbar.js"></script>
   <script type="text/javascript" src="js/footer.js"></script>
