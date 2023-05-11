@@ -147,6 +147,8 @@ body {
     background-color: #faf5e7 !important;
     /* padding-top: 50px;
     padding-bottom: 50px; */
+    background-color: #faf5e7;
+    padding-bottom: 50px;
 }
 
 .sectionFour {
@@ -536,11 +538,19 @@ form input[type="submit"] {
     font-weight: 650;
     color: rgb(6, 6, 121);
 }
-
+.banner{
+    margin-top: 20px;
+    height: 470px !important;
+}
+.banner2{
+    height: 450px !important;
+}
 .pp_head {
     text-decoration: underline;
     text-decoration-color: #fc6140;
-    /* text-underline-position: under; */
+    text-underline-position: under;
+    color: rgb(6, 6, 121);
+    font-size: 25px;
     color: rgb(6, 6, 121);
 }
 
@@ -576,14 +586,9 @@ form input[type="submit"] {
         margin-left: 10px !important;
       }
   }
-  .cardSection{
-    padding-top: 15px;
-
-    }
 
 
 .cardSection {
-    padding-top: 30px;
     padding-bottom: 50px;
     background-color: #f6f9fc;
 }
