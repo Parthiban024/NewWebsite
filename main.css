@@ -262,11 +262,17 @@ body {
     width: 250px;
 }
 
+.para{
+    max-width: 1200px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .sec3_para {
     text-decoration: underline;
     text-decoration-color: #FC6140;
     text-underline-position: under;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 650;
     color: rgb(6, 6, 121);
 }
