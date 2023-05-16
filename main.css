@@ -700,7 +700,9 @@ form input[type="submit"] {
     font-size: 40px !important;
     color: #5d1956 !important;
 }
-
+.blog_hide{
+    display: none;
+}
 /* popup contact */
 .swal2-styled.swal2-confirm {
     border: none !important;
@@ -713,4 +715,14 @@ form input[type="submit"] {
     padding-bottom: 15px;
     padding-top: 35px;
 
+}
+.card_img3{
+   padding: 30px !important;
+}
+.card_img4{
+  
+    padding: 50px !important;
+}
+.pp_head2{
+    margin-top: -30px;
 }
