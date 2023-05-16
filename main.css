@@ -267,6 +267,7 @@ body {
     text-decoration-color: #FC6140;
     text-underline-position: under;
     font-size: 25px;
+    text-underline-offset: 6px;
     font-weight: 650;
     color: rgb(6, 6, 121);
 }
