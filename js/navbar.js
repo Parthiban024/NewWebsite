@@ -33,7 +33,7 @@ class Mynavbar extends HTMLElement {
                 <li><a class="dropdown-item" href="industries.html#Retail"><img src="images/Retail.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspRetail</a></li>
                 <li><a class="dropdown-item" href="industries.html#Manufacturing"><img src="images/Manufacturing.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspManufacturing</a></li>
                 <li><a class="dropdown-item" href="industries.html#Financial_services"><img src="images/Finance.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspFinancial Services</a></li>
-                <li><a class="dropdown-item" href="industries.html#CPG"><img src="images/CPG.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspCPG</a></li>
+                <li><a class="dropdown-item" href="industries.html#CPG"><img src="images/CPG_card.jpg" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspCPG</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
