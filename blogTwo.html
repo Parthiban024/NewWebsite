@@ -18,6 +18,9 @@
 <body>
     <my-navbar></my-navbar>
     <!-- Banner -->
+    <div class="loading-screen">
+        <div class="loading-icon"></div>
+    </div>
     <section class="navbar_body">
         <div class="container txt">
             <div class="row">
@@ -84,6 +87,12 @@
     <my-footer></my-footer>
     <script type="text/javascript" src="js/navbar.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
+    <script>
+        // Hide the loading screen when the page finishes loading
+        window.addEventListener('load', function() {
+            document.querySelector('.loading-screen').style.display = 'none';
+        });
+    </script>
 </body>
 
 </html>
