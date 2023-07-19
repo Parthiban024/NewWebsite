@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog One | Uboundedata</title>
+    <title>Blog One | Unboundedata</title>
     <link href="main.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,68 +18,71 @@
 <body>
     <my-navbar></my-navbar>
     <!-- Banner -->
-    <!-- <div class="loading-screen">
+    <div class="loading-screen">
         <div class="loading-icon"></div>
-    </div> -->
+    </div>
     <section class="navbar_body">
         <div class="container txt">
             <div class="row">
                 <div class="home-title text-center d-flex justify-content-center">
-                    <p class="text-center Data_eng sec3_para">Blog One</p>
+                    <p class="text-center Data_eng sec3_para">DR Strategies with Confluent/Kafka</p>
                 </div>
                 <div class="card-title">
 
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate
-                        veritatis nemo ut praesentium dolorem unde laboriosam similique sint ea porro officia, iste
-                        perspiciatis esse natus aspernatur laudantium! Deleniti, aliquid. Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Similique delectus maxime ad perspiciatis facilis voluptates
-                        natus architecto corrupti unde, nostrum adipisci eius provident ut quo nam aspernatur blanditiis
-                        ducimus. Illum.
-                    </p>
-                    <div class="d-flex justify-content-center mb-3">
-                        <img src="images/blog_image.png" class="img-fluid" alt="">
-                    </div>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate
-                        veritatis nemo ut praesentium dolorem unde laboriosam similique sint ea porro officia, iste
-                        perspiciatis esse natus aspernatur laudantium! Deleniti, aliquid. Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Similique delectus maxime ad perspiciatis facilis voluptates
-                        natus architecto corrupti unde, nostrum adipisci eius provident ut quo nam aspernatur blanditiis
-                        ducimus. Illum.
-                    </p>
-                    <h3 class="pp_head">Lorem, ipsum dolor sit amet</h3>
+                    <p class="card-text"> 
 
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate
-                        veritatis nemo ut praesentium dolorem unde laboriosam similique sint ea porro officia, iste
-                        perspiciatis esse natus aspernatur laudantium! Deleniti, aliquid. Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Similique delectus maxime ad perspiciatis facilis voluptates
-                        natus architecto corrupti unde, nostrum adipisci eius provident ut quo nam aspernatur blanditiis
-                        ducimus. Illum.
+                        Kafka is a distributed system, and it comes with high data durability. For a Kafka cluster with RF=3, RF = Replication Factor, for every active copy, there are two additional copies of the data. Active copy is called leader and additional copies are called followers. 
+                    </p>
+                    <p class="card-text">There are many approaches to achieve high availability (HA) and Disaster Recovery (DR) for the kafka deployments.  
                     </p>
                     <ul class="live type2">
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                        <li>Mirror Maker 2 (MM2)</li>
+                        <li>Confluent Replicator</li>
+                        <li>Cluster Linking</li>
+                        <li>Multi-Region Cluster (MRC)</li>
+                        <li>Object Store Based Backup/Restore</li>
                     </ul>
-                    <p class="card-text"><strong>SERVICE CONTACT</strong> : info©Unboundeddata.com </p>
-                    <h3 class="pp_head">SUMMARY </h3>
-                    <p class="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate
-                        veritatis nemo ut praesentium dolorem unde laboriosam similique sint ea porro officia, iste
-                        perspiciatis esse natus aspernatur laudantium! Deleniti, aliquid. Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Similique delectus maxime ad perspiciatis facilis voluptates
-                        natus architecto corrupti unde, nostrum adipisci eius provident ut quo nam aspernatur blanditiis
-                        ducimus. Illum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate
-                        veritatis nemo ut praesentium dolorem unde laboriosam similique sint ea porro officia, iste
-                        perspiciatis esse natus aspernatur laudantium! Deleniti, aliquid. Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Similique delectus maxime ad perspiciatis facilis voluptates
-                        natus architecto corrupti unde, nostrum adipisci eius provident ut quo nam aspernatur blanditiis
-                        ducimus. Illum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate
-                        veritatis nemo ut praesentium dolorem unde laboriosam similique sint ea porro officia, iste
-                        perspiciatis esse natus aspernatur laudantium! Deleniti, aliquid. Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Similique delectus maxime ad perspiciatis facilis voluptates
-                        natus architecto corrupti unde, nostrum adipisci eius provident ut quo nam aspernatur blanditiis
-                        ducimus. Illum.</p>
+                    <h3 class="pp_head"><strong>Connect Based Kafka Replication</strong></h3>
+                    <p class="card-text pt-2"><a href="https://github.com/apache/kafka/blob/trunk/connect/mirror/README.md">Mirror Maker 2 (MM2)</a>, <a href="https://docs.confluent.io/platform/current/multi-dc-deployments/replicator/index.html">Confluent Replicator</a> and Cluster Linking based approach is to replicate data from one kafka cluster to another. There are not so many significant differences between MM2 and Confluent Replicator, as both are based on Kafka Connect. Both MM2 and Confluent Replicator need additional resources in terms of Connect Cluster nodes. 
+                    </p>
+                    <h3 class="pp_head"><strong>Server based Kafka Replication</strong></h3>
+                    <p class="card-text pt-2"><a href="https://docs.confluent.io/platform/current/multi-dc-deployments/cluster-linking/index.html">Cluster Linking</a> on the other hand is very unique as it enables byte by byte replication from Kafka broker from one cluster to another. Messages from source topics are mirrored precisely onto destination topics. This makes failover very seamless, as offsets, ACLs, Schemas are preserved from source to destination. There are no additional resources needed to run Cluster Linking as it is built in as part of the Confluent Server.  
+                    </p>
+                    <p class="card-text"><a href="https://docs.confluent.io/platform/current/multi-dc-deployments/multi-region.html">Multi-Region Cluster</a> is another way to achieve HA and DR where a single cluster is stretched across the regions and clients get the impression that they are talking to the same cluster even if the disaster is stuck. MRC enables spanning the single kafka topic across regions, with the help of leaders, followers and observers. Observers can be set to have sync or async policies, depending on the RPO/RTO requirements. 
+                    </p>
+
+                    <h3 class="pp_head "><strong>Poor Man’s DR : High RPO:RTO</strong></h3>
+                    <p class="card-text pt-2">If an organization has high RPO and RTO requirements, like up to 24 hours, then one can choose the approach in which they can use object store buckets as backup stores. In this approach, all kafka data is egressed into Object Store buckets using Sink Connector from a Kafka cluster and if the disaster is stuck then, using a source connector the kafka cluster in the DR region is hydrated.   
+                    </p>
+                    <p class="card-text"> 
+
+                        Key to remember is that this workload has a high RTO and RPO. For low RPO/RTO use cases, this would not work well.   
+                    </p>
+                    <p class="card-text"> 
+
+                        Above mentioned approach would also work with Confluent Cloud and not just the Confluent platform. Once the disaster is struck, infrastructure can be set up for self-managed or managed kafka service and connectors can be set up to hydrate the DR region kafka clusters. Of course this option comes with a trade off, where we want to save on provisioning large amounts of kafka resources and which will not be used unless the disaster is stuck.
+                    </p>
+                    <p class="card-text"> 
+
+                        Diagrams below illustrate the workflow.
+                    </p>
+                    <div class="d-flex justify-content-center mb-5">
+                        <img src="images/blog_2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center mb-3 mt-2">
+                        <img src="images/blog.png" class="img-fluid" alt="">
+                    </div>
+                    <p class="card-text">Confluent supports all three major clouds as object store destinations (sink) and sources. 
+                    </p>
+                 
+                    <ul class="live type2">
+                        <li><a href="https://docs.confluent.io/kafka-connectors/s3-source/current/backup-and-restore/overview.html">Amazon S3 Source Connector for Confluent Platform | Confluent Documentation</a></li>
+                        <li><a href="https://docs.confluent.io/kafka-connectors/azure-blob-storage-source/current/backup-and-restore/overview.html#backup-and-restore-az-blob-storage-source-connector-for-cp">Azure Blob Storage Source Connector for Confluent Platform | Confluent Documentation</a></li>
+                        <li><a href="https://docs.confluent.io/kafka-connectors/gcs-source/current/backup-and-restore/overview.html#backup-and-restore-google-cloud-storage-source-connector-for-cp">Backup and Restore Google Cloud Storage Source Connector for Confluent Platform | Confluent Documentation</a></li>
+                    </ul>
+                    <p class="card-text mb-3">It becomes very intuitive at this point, given the conditions of high RPO and RTO, about 24 hours, the above method is very appealing when intent is to have DR in place but cost due to Confluent clusters at the destination, data transfer across clusters and data retention are major factors. Clearly this is not going to be feasible if RPO and RTO are less and the benefits of the cost savings not significant, then using one of the replicating technologies is a better choice. </p>
+                    <p class="card-text pb-3">Further reading: Disaster Recovery in the Confluent Cloud - <a href="https://www.confluent.io/resources/white-paper/best-practices-disaster-recovery/">Whitepaper</a>.  
+                    </p>
                 </div>
             </div>
         </div>
@@ -87,12 +90,12 @@
     <my-footer></my-footer>
     <script type="text/javascript" src="js/navbar.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
-    <!-- <script>
+    <script>
         // Hide the loading screen when the page finishes loading
         window.addEventListener('load', function() {
             document.querySelector('.loading-screen').style.display = 'none';
         });
-    </script> -->
+    </script>
 </body>
 
 </html>

@@ -49,7 +49,7 @@ class Mynavbar extends HTMLElement {
             <li class="nav-item">
               <a class="nav-link nav_link  Header-subtitle2" href="reference.html">Reference</a>
             </li>
-<li class="nav-item blog_hide">
+<li class="nav-item ">
               <a class="nav-link nav_link  Header-subtitle2" href="blog.html">Blog</a>
             </li>
           </ul>
