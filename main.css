@@ -451,6 +451,9 @@ form input[type="submit"] {
         margin-left: 10px !important;
     }
 }
+.text-els{
+   text-overflow: ellipsis;
+}
 .cardSection {
     padding-bottom: 50px;
     background-color: #f6f9fc;
