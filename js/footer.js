@@ -34,8 +34,8 @@ class Myfooter extends HTMLElement {
               <li>
                 <h5>Contact</h5>
               </li>
-              <li class="pt-2"><a href="mailto:sales@unboundeddata.com">sales@unboundeddata.com</a></li>
-              <li class="pt-2"><a href="tel:+1-800-343-5432">1-800-343-5432</a></li>
+              <li class="pt-2"><a href="mailto:sales@unboundedata.com">sales@unboundedata.com</a></li>
+              <li class="pt-2"><a href="tel:+1-408-475-3960">+1-408-475-3960</a></li>
             </ul>
           </div>
   
@@ -46,13 +46,10 @@ class Myfooter extends HTMLElement {
                   <a href="terms&conditions.html">Terms of Use</a>
                 </li>
                 <li class="pt-2">
-                  <p>Copyright &copy;2023 Unboundeddata - All right reserved. </p>
+                  <p>Copyright &copy;2023 Unboundedata - All right reserved. </p>
                 </li>
                 <li>
-                  <p>US Office : 20715 N Pima Road, Scottsdale, AZ 85255</p>
-                </li>
-                <li>
-                  <p> India Office : 4353 , N.K. Palace, Chennai, TN 600028 </p>
+                  <p>US Office : 6203 San Ignacio Avenue Suite 110, San Jose, California 95119</p>
                 </li>
               </ul> 
             </div>
