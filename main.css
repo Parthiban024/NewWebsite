@@ -663,3 +663,31 @@ a {
 .crd-img{
     width: 100px !important;
 }
+.partner_head{
+    font-size: 21px;
+    font-weight: 600;
+    color: #5d1956;
+}
+.banner-para{
+    font-size: 24px;
+    font-weight: 700;
+}
+.partner_head_two{
+    font-size: 28px;
+    font-weight: 600;
+    color: #5d1956;
+    padding-top: 100px;
+}
+.banner-para_two{
+    font-size: 40px;
+    font-weight: 600;
+}
+.para_bold{
+    font-size: 20px;
+    font-weight: 550;
+}
+.para_bold_two{
+    font-size: 20px;
+    font-weight: 550;
+    color: #5d1956;
+}
