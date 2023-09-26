@@ -4,7 +4,7 @@ class Myfooter extends HTMLElement {
       <div class="container">
         <div class="row">
   
-          <div class="col-md-2 ">
+          <div class="col-md-2">
   
             <ul class="footer-list">
               <li>
@@ -30,16 +30,28 @@ class Myfooter extends HTMLElement {
             </ul>
           </div>
           <div class="col-md-2">
+          <ul class="footer-list">
+            <li>
+              <h5>Company</h5>
+            </li>
+            <li class="pt-2"><a href="company.html">About</a></li>
+            <li class="pt-2"><a href="reference.html">Reference</a></li>
+            <li class="pt-2"><a href="partners.html">Partners</a></li>
+            <li class="pt-2"><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+
+          <div class="col-md-2">
             <ul class="footer-list">
               <li>
                 <h5>Contact</h5>
               </li>
-              <li class="pt-2"><a href="mailto:sales@unboundedata.com">sales@unboundedata.com</a></li>
-              <li class="pt-2"><a href=" mn  ">+1-408-475-3960</a></li>
+              <li class="pt-2"><a href="mailto:ram@unboundedata.com">ram@unboundedata.com</a></li>
+              <li class="pt-2"><a href="tel:+1-408-475-3960">+1-408-475-3960</a></li>
             </ul>
           </div>
   
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="">
               <ul class="footer-list rightmenu">
                 <li class="footer_clr"><a href="privacyPolicy.html">Privacy Policy</a> |
