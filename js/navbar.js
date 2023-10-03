@@ -16,11 +16,11 @@ class Mynavbar extends HTMLElement {
                 <a href="services.html" class="nav-link nav_lnk nav_link Header-subtitle">Services</a>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="services.html#Data_Engineering"><img src="images/Data_engineer.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Engineering</a></li>
-                <li><a class="dropdown-item" href="services.html#Data_Analytics"><img src="images/Data_analytics.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Analytics</a></li>
-                <li><a class="dropdown-item" href="services.html#Data_Science"><img src="images/Data_Science.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Science</a></li>
-                <li><a class="dropdown-item" href="services.html#Data_Ingesting"><img src="images/Data_Ingesting.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Ingesting</a></li>
-                <li><a class="dropdown-item" href="services.html#Migration"><img src="images/Migration.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspMigration</a></li>
+                <li><a class="dropdown-item" href="services.html#Data_Engineering"><img src="images/Data_engineer.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Engineering</a></li>
+                <li><a class="dropdown-item" href="services.html#Data_Analytics"><img src="images/Data_analytics.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Analytics</a></li>
+                <li><a class="dropdown-item" href="services.html#Data_Science"><img src="images/Data_Science.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Science</a></li>
+                <li><a class="dropdown-item" href="services.html#Data_Ingesting"><img src="images/Data_Ingesting.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Ingesting</a></li>
+                <li><a class="dropdown-item" href="services.html#Migration"><img src="images/Migration.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspMigration</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -29,11 +29,11 @@ class Mynavbar extends HTMLElement {
                   <a href="industries.html" class="nav-link nav_lnk nav_link Header-subtitle">Industries</a>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="industries.html#HLS"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspHLS</a></li>
-                <li><a class="dropdown-item" href="industries.html#Retail"><img src="images/Retail.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspRetail</a></li>
-                <li><a class="dropdown-item" href="industries.html#Manufacturing"><img src="images/Manufacturing.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspManufacturing</a></li>
-                <li><a class="dropdown-item" href="industries.html#Financial_services"><img src="images/Finance.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspFinancial Services</a></li>
-                <li><a class="dropdown-item" href="industries.html#CPG"><img src="images/CPG_card.jpg" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspCPG</a></li>
+                <li><a class="dropdown-item" href="industries.html#HLS"><img src="images/HLS.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspHLS</a></li>
+                <li><a class="dropdown-item" href="industries.html#Retail"><img src="images/Retail.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspRetail</a></li>
+                <li><a class="dropdown-item" href="industries.html#Manufacturing"><img src="images/Manufacturing.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspManufacturing</a></li>
+                <li><a class="dropdown-item" href="industries.html#Financial_services"><img src="images/Finance.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspFinancial Services</a></li>
+                <li><a class="dropdown-item" href="industries.html#CPG"><img src="images/CPG_card.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspCPG</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -43,7 +43,7 @@ class Mynavbar extends HTMLElement {
               <a href="company.html" class="nav-link nav_lnk nav_link Header-subtitle">Company</a>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="company.html"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspAbout Us</a></li>
+              <li><a class="dropdown-item" href="company.html"><img src="images/company_banner.webp" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspAbout Us</a></li>
             </ul>
           </li>
             <li class="nav-item">

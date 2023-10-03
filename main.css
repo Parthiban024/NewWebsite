@@ -85,14 +85,24 @@ body {
     form {
         width: 100% !important;
     }
+    .banner_text{
+        font-size: 29px !important;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 920px) {
     form {
         width: 100% !important;
     }
+    .banner_text{
+        font-size: 35px !important;
+    }
 }
-
+@media screen and (min-width: 480px) and (max-width: 920px) {
+    form {
+        width: 100% !important;
+    }
+}
 .dropdown:hover .dropdown-menu {
     display: block !important;
     transition: 0.3s !important;
@@ -155,21 +165,8 @@ body {
 color: #060679;
 }
 .banner_text {
-    font-size: 70px;
+    font-size: 55px;
     font-weight: 500 !important;
-}
-
-.banner_para {
-    font-size: 21px;
-    margin-top: 90px;
-    text-align: justify;
-    max-width: 900px;
-}
-
-.partners_para {
-    font-size: 21px;
-    text-align: justify;
-    max-width: 900px;
 }
 
 .Data_font,
@@ -522,8 +519,35 @@ form input[type="submit"] {
     .banner_section {
         height: 500px !important;
     }
+    
+    .banner2 {
+        margin-top: 80px;
+    }
+    .mtop h1 {
+    
+        font-size: 25px !important;
+    }
 }
 
+@media only screen and (min-width: 768px) {
+
+    
+    .banner2 {
+        height: 450px !important;
+        margin-top: 50px;
+    }
+    .banner_para {
+        font-size: 21px;
+        margin-top: 90px;
+        text-align: justify;
+        max-width: 900px;
+    }
+    .partners_para {
+        font-size: 21px;
+        text-align: justify;
+        max-width: 900px;
+    }
+}
 @media only screen and (max-width: 480px) {
     .banner_section {
         height: 300px !important;
@@ -588,12 +612,9 @@ form input[type="submit"] {
 
 .banner {
     margin-top: 20px;
-    height: 470px !important;
+    /* height: 470px !important; */
 }
 
-.banner2 {
-    height: 450px !important;
-}
 
 @media screen and (min-width: 577px) {
     .my-cont {

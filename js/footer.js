@@ -46,7 +46,7 @@ class Myfooter extends HTMLElement {
               <li>
                 <h5>Contact</h5>
               </li>
-              <li class="pt-2"><a href="mailto:ram@unboundedata.com">ram@unboundedata.com</a></li>
+              <li class="pt-2"><a href="mailto:ravi@unboundedata.com">ravi@unboundedata.com</a></li>
               <li class="pt-2"><a href="tel:+1-408-475-3960">+1-408-475-3960</a></li>
             </ul>
           </div>
