@@ -1,0 +1,137 @@
+
+h1 {
+    color: #333;
+}
+
+
+
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+#portNumber{
+    border-right: transparent;
+}
+
+
+.result-container {
+
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+h3{
+    font-size: 1.75rem;
+}
+.port-div-width{
+    max-width: 850px !important;
+}
+.port-btn{
+    background-color: #5d1956 !important;
+    padding: 10px !important;
+    height: 47.3px;
+    margin-top: 4px;
+    margin-left: -10px !important;
+}
+
+.footer-list2 li{
+    list-style: none;
+}
+li{
+    cursor: pointer;
+}
+.port-box{
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0.2px solid #b8b4b7;
+    box-shadow: 0 6px 19px rgba(13, 13, 14, 0.1) !important;
+}
+
+/* Styling for the green rounded tick */
+.green-tick {
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 50%;
+  }
+  
+  /* Styling for the red rounded tick */
+  .red-tick {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 50%;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+  /* Add styles for the result container */
+.result-container {
+    border: 2px solid transparent;
+    transition: border-color 0.5s ease-in-out;
+    display: inline-block; /* Make the container inline-block to only take the necessary width */
+}
+
+/* Add styles for the result message */
+.result-message {
+    margin: 20px 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Add styles for the green border for open ports */
+.result-container.green-border {
+    border-color: #4CAF50; /* Green color */
+    animation: border-pulse 2s infinite; /* Add animation for pulsating border */
+}
+
+/* Add styles for the red border for closed ports */
+.result-container.red-border {
+    border-color: #FF5733; /* Red color */
+    animation: border-pulse 2s infinite; /* Add animation for pulsating border */
+}
+
+/* Keyframes for the pulsating border animation */
+@keyframes border-pulse {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #4CAF50; /* Green color */
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+.port-head{
+    font-weight: 600;
+    color: #5d1956;
+    text-align: center;
+    font-size: 21px;
+}
+.port-font{
+    color:#5d1956;
+    font-weight: 600;
+}
+.port-error{
+    color: #0c0301;
+}
+

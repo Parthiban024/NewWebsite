@@ -1019,3 +1019,7 @@ a {
 .Sec-partner2 i{
     font-size: 40px !important;
 }
+.form-label{
+    font-size: 13px;
+    font-family: sans-serif;
+}
